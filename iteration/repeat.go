@@ -1,7 +1,5 @@
 package iteration
 
-import "fmt"
-
 const repeatCount = 5
 
 func Repeat(character string) string {
@@ -9,7 +7,7 @@ func Repeat(character string) string {
 	for i := 0; i < repeatCount; i++ {
 		repeated += character
 		//keluarkan value dlu
-		fmt.Printf("i = %d, repeated: %q\n", i, repeated)
+		//fmt.Printf("i = %d, repeated: %q\n", i, repeated)
 		//i++ run last skali
 	}
 	return repeated
